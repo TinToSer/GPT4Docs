@@ -21,8 +21,9 @@ Install:-
    
    During installation don't forget to check "Add to path"
    
-2. Open CM and run pip install -r [path of requirements.txt in GPT4Docs folder]
-
+2. Open CMD and run "pip install -r [path of requirements.txt in GPT4Docs folder]"
+   
+4. use "git clone https://github.com/TinToSer/GPT4Docs.git"    else your offline_files folder will be empty it should be 87 Mb
 
 --------------Setup Done-----------------
 
