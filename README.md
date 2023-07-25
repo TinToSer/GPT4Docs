@@ -1,5 +1,5 @@
 # GPT4Docs
-An Offline Document Enquiry LLM for Anyone
+An Offline Document Enquiry LLM for Everyone
 
 ## NO GPU 
 ## Works On CPU Only
