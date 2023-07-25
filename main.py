@@ -33,7 +33,8 @@ if st.button("Rebuild VectorDB"):
     vectorstore.save_local(cfg.DB_FAISS_PATH)
     st.success("Database build completed ...")
 
-model = st.selectbox("Select LLM model",os.listdir(cfg.MODEL_BIN_DIR))
+model_list = [fli for fli in os.listdir(cfg.MODEL_BIN_DIR) if fli.endswith('.bin') ]    
+model = st.selectbox("Select LLM model",model_list)
 query = st.text_input("Just Ask?", "")
 # If the 'Submit' button is clicked
 if st.button("Submit"):
